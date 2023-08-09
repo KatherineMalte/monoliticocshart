@@ -1,0 +1,10 @@
+{
+  "ConnectionStrings": {
+    //"DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=_CHANGE_ME;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "cadenaSQL": "Server=(COBOPROBESQL2); DataBase = PRUEBAS; Trusted_Connection= true; TrustServerCertificate=true;"
+   
+   // "user": "USER_SISECORE",
+    //"psw": "JKWEVDGNUG"
+
+  }
+}

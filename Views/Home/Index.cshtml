@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="row justify-content-center">
+    <div class="col-10">
+        <div class="alert alert-info" role="alert">
+            CRUD EMPLEADOS
+        </div>
+        <button type="button" class="btn btn-success btn-nuevo-empleado">Nuevo empleado</button>
+        <table class="table table-striped" id="tablaEmpleado">
+            <thead>
+                <tr>
+                <th>nombre completo</th>
+                <th> Nombre</th>
+                <th> Apellido </th>
+                <th> Edad </th>
+                <th> Cargo </th>
+                <th> Sueldo </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalEmpleado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Empleado</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label  class="form-label">Nombres Completos</label>
+                    <input type="text" class="form-control" id="txtNombreCompleto" autocomplete="off">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Departamento</label>
+                     <select class= "form-select" id="cboDepartamento"></select> 
+                </div>
+                <div class="mb-3">
+                    <label  class="form-label">Edad</label>
+                    <input type="text" class="form-control" id="txtEdad">
+                </div>
+                <div class="mb-3">
+                    <label  class="form-label">cargo</label>
+                    <input type="text" class="form-control" id="txtCargo ">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">sueldo</label>
+                    <input type="text" class="form-control" id="txtSueldo">
+                </div>
+                <div class="mb-3">
+                    <label  class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary boton-guardar-cambios-empleado">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+<script src="~/js/Index.js"></script>
+}
