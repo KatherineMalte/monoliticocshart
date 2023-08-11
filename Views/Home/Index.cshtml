@@ -1,26 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
 <div class="row justify-content-center">
     <div class="col-10">
         <div class="alert alert-info" role="alert">
             CRUD EMPLEADOS
         </div>
-        <button type="button" class="btn btn-success btn-nuevo-empleado">Nuevo empleado</button>
+        <button type="button" class="btn btn-success btn-sm boton-nuevo-empleado">Nuevo empleado</button>
         <table class="table table-striped" id="tablaEmpleado">
             <thead>
                 <tr>
-                <th>nombre completo</th>
-                <th> Nombre</th>
-                <th> Apellido </th>
-                <th> Edad </th>
-                <th> Cargo </th>
-                <th> Sueldo </th>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>Edad</th>
+                <th>Cargo</th>
+                <th>Sueldo</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -38,12 +32,17 @@
             </div>
             <div class="modal-body">
                 <div class="mb-3">
-                    <label  class="form-label">Nombres Completos</label>
-                    <input type="text" class="form-control" id="txtNombreCompleto" autocomplete="off">
+                    <label  class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="txtNombre" autocomplete="off">
                 </div>
-                <div class="mb-3">
+               <!--  <div class="mb-3"> 
                     <label class="form-label">Departamento</label>
                      <select class= "form-select" id="cboDepartamento"></select> 
+                </div> 
+                -->
+                <div class="mb-3">
+                    <label class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="txtApellido" autocomplete="off">
                 </div>
                 <div class="mb-3">
                     <label  class="form-label">Edad</label>
@@ -57,10 +56,12 @@
                     <label class="form-label">sueldo</label>
                     <input type="text" class="form-control" id="txtSueldo">
                 </div>
+                <!--
                 <div class="mb-3">
                     <label  class="form-label">Email address</label>
                     <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
                 </div>
+                -->
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

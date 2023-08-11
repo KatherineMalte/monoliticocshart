@@ -201,6 +201,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\smalte\\Documents\\cursoCshart\\AppCrud\\wwwroot\\lib\\datepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\lib\\datepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\smalte\\Documents\\cursoCshart\\AppCrud\\wwwroot\\lib\\datepicker\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\datepicker\\bootstrap-datepicker.min.js"
+    },
+    {
       "Id": "C:\\Users\\smalte\\Documents\\cursoCshart\\AppCrud\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -247,6 +255,14 @@
     {
       "Id": "C:\\Users\\smalte\\Documents\\cursoCshart\\AppCrud\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\smalte\\Documents\\cursoCshart\\AppCrud\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smalte\\Documents\\cursoCshart\\AppCrud\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AppCrud.Microsoft.AspNetCore.StaticWebAssets.props",
